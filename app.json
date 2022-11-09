@@ -1,0 +1,13 @@
+{
+    "pages": [
+        "pages/classic/classic"
+    ],
+    "window":{
+        "navigationBarBackgroundColor": "#f3f3f3",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "LinkinCao",
+        "navigationStyle": "default",
+        "backgroundColor": "#ffffff",
+        "enablePullDownRefresh": false
+    }
+}
