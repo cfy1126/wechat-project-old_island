@@ -2,14 +2,15 @@
     display: inline-flex;
     flex-direction: row;
     padding: 10rpx;
+    width: 90rpx;
 }
 
-.container image{
+.container .pic{
     width: 32rpx;
     height: 28rpx;
 }
 
-.container text{
+.container .count{
     font-size: 24rpx;
     line-height: 24rpx;
     color: #bbbbbb;
