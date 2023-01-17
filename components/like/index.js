@@ -1,7 +1,7 @@
 Component({
   properties: {
     like: {
-      type: Boolean,
+      type: Boolean
     },
     count: {
       type: Number

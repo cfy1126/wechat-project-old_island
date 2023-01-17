@@ -4,7 +4,9 @@ let classicModel = new ClassicModel()
 let likeModel = new LikeModel()
 Page({
     data: {
-        classic: {}
+        classic: null,
+        latest: true,
+        first: false
     },
     onLoad(options) {
         const res = classicModel.getLatest((res)=>{
@@ -18,5 +20,11 @@ Page({
         let artID = this.data.classic.id
         let category = this.data.classic.type
         likeModel.like(behavior,artID,category)
+    },
+    onNext(event){
+
+    },
+    onPrevious(event){
+        
     }
 })
