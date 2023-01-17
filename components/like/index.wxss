@@ -1,17 +1,22 @@
+/* components/like/index.wxss */
+
 .container{
-    display: inline-flex;
+    display:inline-flex;
     flex-direction: row;
     padding: 10rpx;
-    width: 90rpx;
+    width:90rpx;
 }
 
-.container .pic{
-    width: 32rpx;
-    height: 28rpx;
+.container image{
+   width:32rpx;
+   height:28rpx;
+
 }
 
-.container .count{
-    font-size: 24rpx;
+.container text{
+    /* 苹方  思源 */
+    /* font-family: "PingFangSC-Thin"; */
+    font-size:24rpx;
     line-height: 24rpx;
     color: #bbbbbb;
     position: relative;
